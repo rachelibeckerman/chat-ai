@@ -18,6 +18,18 @@ The frontend is styled using **Tailwind CSS**, and communication with the backen
 
 ---
 
+### 🎯 AI Behavior Control (Up-Front Iterations)
+
+This project supports "up-front iterations" by allowing you to define a system-level instruction before the conversation starts.  
+This system prompt is used to guide the AI's behavior, tone, and purpose during the session.
+
+Example system prompt:
+> "You are a helpful assistant who always replies concisely."
+
+This feature is implemented via a `"system"` role message in the chat history.
+
+---
+
 ## 🛠 Technologies
 
 ### Client:
